@@ -8,11 +8,11 @@
 
   通过git官网下载windows所使用的版本：
 
-![1657810160712](D:\Program Files\Git\gitreo\summerHW\image\1657810160712.png)
+![1657810160712](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810160712.png)
 
   通过Git Bash调出控制台页面来进行进一步操作：
 
-![1657809743370](D:\Program Files\Git\gitreo\summerHW\image\1657809743370.png)
+![1657809743370](https://github.com/LinkWithMe/summerHW/blob/main/image/1657809743370.png)
 
 ### 3.文件相关操作
 
@@ -20,9 +20,9 @@
 
   文件内容的修改，查询文件状态
 
-![1657810136539](D:\Program Files\Git\gitreo\summerHW\image\1657810136539.png)
+![1657810136539](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810136539.png)
 
-![1657810140275](D:\Program Files\Git\gitreo\summerHW\image\1657810140275.png)
+![1657810140275](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810140275.png)
 
   文件的提交，这里要分为两步：
 
@@ -30,17 +30,17 @@
 
   
 
-![1657810372505](D:\Program Files\Git\gitreo\summerHW\image\1657810372505.png)
+![1657810372505](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810372505.png)
 
 ### 4.版本相关操作
 
   通过git reflog可以查找出版本：
 
-![1657810562965](D:\Program Files\Git\gitreo\summerHW\image\1657810562965.png)
+![1657810562965](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810562965.png)
 
   并且通过reset可以对版本进行穿梭：
 
-![1657810609204](D:\Program Files\Git\gitreo\summerHW\image\1657810609204.png)
+![1657810609204](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810609204.png)
 
 ### 5.分支相关操作
 
@@ -48,21 +48,21 @@
 
   创建分支：
 
-![1657811867683](D:\Program Files\Git\gitreo\summerHW\image\1657811867683.png)
+![1657811867683](https://github.com/LinkWithMe/summerHW/blob/main/image/1657811867683.png)
 
   切换分支：
 
-![1657811929811](D:\Program Files\Git\gitreo\summerHW\image\1657811929811.png)
+![1657811929811](https://github.com/LinkWithMe/summerHW/blob/main/image/1657811929811.png)
 
   展示所有的分支：
 
-![1657811884130](D:\Program Files\Git\gitreo\summerHW\image\1657811884130.png)
+![1657811884130](https://github.com/LinkWithMe/summerHW/blob/main/image/1657811884130.png)
 
   
 
   对分支进行合并：
 
-![1657812867187](D:\Program Files\Git\gitreo\summerHW\image\1657812867187.png)
+![1657812867187](https://github.com/LinkWithMe/summerHW/blob/main/image/1657812867187.png)
 
   当合并的两个文件在同一个位置有不同的语句时，需要手动对合并进行操作。
 
@@ -70,29 +70,29 @@
 
   用http方式时，需要输入账号密码进行连接，连接成功后：
 
-![1657813394760](D:\Program Files\Git\gitreo\summerHW\image\1657813394760.png)
+![1657813394760](https://github.com/LinkWithMe/summerHW/blob/main/image/1657813394760.png)
 
   申请SSH密钥，并且在github上进行加载
 
-![1657813425441](D:\Program Files\Git\gitreo\summerHW\image\1657813425441.png)
+![1657813425441](https://github.com/LinkWithMe/summerHW/blob/main/image/1657813425441.png)
 
-![1657813429861](D:\Program Files\Git\gitreo\summerHW\image\1657813429861.png)
+![1657813429861](https://github.com/LinkWithMe/summerHW/blob/main/image/1657813429861.png)
 
   在SSH的方式下，进行push和pull操作：
 
-![1657813474410](D:\Program Files\Git\gitreo\summerHW\image\1657813474410.png)
+![1657813474410](https://github.com/LinkWithMe/summerHW/blob/main/image/1657813474410.png)
 
 ### 7.问题及解决
 
   ①在上传材料至github后，发现md中的图片不会显示，如下所示：
 
-<img src="C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1657814887058.png" alt="1657814887058" style="zoom: 67%;" />
+<img src="https://github.com/LinkWithMe/summerHW/blob/main/image/%E5%9B%BE%E7%89%871.png" alt="1657814887058" style="zoom: 67%;" />
 
   考虑到是图片路径的问题，因此上传所需要的图片至github并且更新图片的路径
 
   ②尝试分别在在github上手动更新README文件，在本地文件夹中手动更新README文件，结果出现如下错误：
 
-![1657815398287](D:\Program Files\Git\gitreo\summerHW\image\1657815398287.png)
+![1657815398287](https://github.com/LinkWithMe/summerHW/blob/main/image/1657815398287.png)
 
   查阅相关资料发现， 出现错误的主要原因是github中的README.md文件不在本地代码目录中，因此要先进行pull操作，将文件pull下来进行合并
 
