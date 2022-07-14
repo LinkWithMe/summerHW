@@ -12,7 +12,7 @@
 
   通过Git Bash调出控制台页面来进行进一步操作：
 
-![1657809743370](D:\Program Files\Git\gitreo\summerHW\image\1657809743370.png)
+![1657809743370](https://github.com/LinkWithMe/summerHW/blob/main/image/1657809743370.png)
 
 ### 3.文件相关操作
 
