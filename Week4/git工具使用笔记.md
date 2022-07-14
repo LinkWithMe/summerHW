@@ -84,11 +84,17 @@
 
 ### 7.问题及解决
 
-  在上传材料至github后，发现md中的图片不会显示，如下所示：
+  ①在上传材料至github后，发现md中的图片不会显示，如下所示：
 
 <img src="C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1657814887058.png" alt="1657814887058" style="zoom: 67%;" />
 
   考虑到是图片路径的问题，因此上传所需要的图片至github并且更新图片的路径
+
+  ②尝试分别在在github上手动更新README文件，在本地文件夹中手动更新README文件，结果出现如下错误：
+
+![1657815398287](D:\Program Files\Git\gitreo\summerHW\image\1657815398287.png)
+
+  查阅相关资料发现， 出现错误的主要原因是github中的README.md文件不在本地代码目录中，因此要先进行pull操作，将文件pull下来进行合并
 
 ### 8.参考资料
 
