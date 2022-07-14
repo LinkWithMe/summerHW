@@ -84,9 +84,7 @@
 
 ### 7.问题及解决
 
-  ①在上传材料至github后，发现md中的图片不会显示，如下所示：
-
-![图片1](https://github.com/LinkWithMe/summerHW/blob/main/image/%E5%9B%BE%E7%89%871.png)
+  ①在上传材料至github后，发现md中的图片不会显示
 
   考虑到是图片路径的问题，因此上传所需要的图片至github并且更新图片的路径
 
