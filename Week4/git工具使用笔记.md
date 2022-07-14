@@ -26,7 +26,7 @@
 
   文件的提交，这里要分为两步：
 
-![1657810317100](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1657810317100.png)
+![1657810317100](https://github.com/LinkWithMe/summerHW/blob/main/image/1657810317100.png)
 
   
 
