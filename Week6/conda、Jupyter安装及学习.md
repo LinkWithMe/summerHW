@@ -211,7 +211,7 @@ Files页面是用于管理和创建文件相关的类目。
 !pwd
 ```
 
-![1658998365026](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/23)
+![1658998365026](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/22)
 
 注意，其中!pwd属于shell语法，**即在Jupyter Notebook中执行shell命令的语法** 。
 
@@ -237,7 +237,7 @@ vi /etc/apt/sources.list
 
 删除原来的数据之后，添加新的数据如下所示：
 
-![1658853044707](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/24)
+![1658853044707](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/23)
 
 ③更新列表
 
@@ -263,7 +263,7 @@ wget set to manually installed.
 
 在运行jupyter notebook遇到如上错误，找到配置文件，修改内容为True并去掉注释
 
-![1658940745629](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/25)
+![1658940745629](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/24)
 
 但是发现依旧报错，不进行文件的更改，而是使用如下命令：
 
@@ -273,11 +273,11 @@ wget set to manually installed.
 
 运行结果如下：
 
-![1658975743986](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/26)
+![1658975743986](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/25)
 
 粘贴其中的URLs到浏览器中，运行成功：
 
-![1658975941083](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/27)
+![1658975941083](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/26)
 
 ### 5.存在问题
 
@@ -289,7 +289,7 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 安装后，一直报错
 
-![1658999106821](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/28)
+![1658999106821](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/27)
 
 一直无法debug，最后卸载了jupyter，但是没卸载干净导致重装也无法运行，并且在环境中产生了大量无用的包。最后在新环境中完成实验。但是base环境中那么多包仍是一个问题。之后有时间要把这些包uninstall一下。
 
@@ -301,15 +301,15 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 清除结果如下：
 
-![1659013555688](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/29)
+![1659013555688](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/28)
 
 尝试对base环境进行回滚：
 
-![1659023377190](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/30)
+![1659023377190](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/29)
 
 但是出现缺失包的错误：
 
-![1659023414275](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659023414275.png)
+![1659023414275](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/30)
 
 ### 参考资料
 
