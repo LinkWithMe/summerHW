@@ -173,7 +173,7 @@ Files页面是用于管理和创建文件相关的类目。
 
 使用图解：
 
- ![img](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/20) 
+ ![img](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/21) 
 
 安装Markdown生成目录：
 
