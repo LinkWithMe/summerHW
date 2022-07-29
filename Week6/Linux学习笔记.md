@@ -178,11 +178,11 @@ cbb@LAPTOP-R03NAQL4:/root$
 
 --help可以显示用法信息，显示命令所支持的语法和选项说明：
 
-![1658543926395](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658543926395.png)
+![1658543926395](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/5)
 
 man显示程序手册页，它们不仅仅包括用户命令，也包括系统管理员 命令，程序接口，文件格式等等：
 
-![1658544264912](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658544264912.png)
+![1658544264912](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/6)
 
 apropos-显示适当的命令，也有可能搜索参考手册列表，基于某个关键字的匹配项。 
 
@@ -610,7 +610,7 @@ vi 很多系统都预装，且是一个轻量级且执行快速的编辑器。
 
 启动vim：
 
-![1658723011630](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658723011630.png)
+![1658723011630](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/7)
 
 添加新的文件：
 
