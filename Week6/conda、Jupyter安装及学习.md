@@ -14,7 +14,7 @@ root@LAPTOP-R03NAQL4:~# wget -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/mi
 
 下载成功后的提醒：
 
-![1658897960008](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658897960008.png)
+![1658897960008](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/8)
 
 使用如下命令进行进一步安装：
 
@@ -22,11 +22,11 @@ root@LAPTOP-R03NAQL4:~# wget -c https://mirrors.tuna.tsinghua.edu.cn/anaconda/mi
 root@LAPTOP-R03NAQL4:~# bash Miniconda3-latest-Linux-x86_64.sh
 ```
 
-![1658908214150](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658908214150.png)
+![1658908214150](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/9)
 
 安装至如下目录：
 
-![1658908264307](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658908264307.png)
+![1658908264307](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/10)
 
 安装完毕：
 
@@ -56,11 +56,11 @@ conda 4.12.0
 
 通过conda list检查安装的包：
 
-![1658910417677](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658910417677.png)
+![1658910417677](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/11)
 
 检查自己的CUDA版本：
 
-![1658919057005](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658919057005.png)
+![1658919057005](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/12)
 
 安装pytorch命令：
 
@@ -70,7 +70,7 @@ conda 4.12.0
 
 安装完毕：
 
-###### ![1658926559743](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658926559743.png)
+###### ![1658926559743](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/13)
 
 验证：
 
@@ -89,7 +89,7 @@ import torch
 
 并且可以使用自己的GPU1650ti
 
-![1658926686753](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658926686753.png)
+![1658926686753](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/14)
 
 ### 2.Jupyter安装
 
@@ -112,7 +112,7 @@ Writing default config to: /root/.jupyter/jupyter_notebook_config.py
 
 找到文中内容并进行修改：
 
-![1658939113017](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658939113017.png)
+![1658939113017](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/15)
 
 更新文件：
 
@@ -132,7 +132,7 @@ Jupyter Notebook是以网页的形式打开，可以在网页页面中**直接�
 
 当执行完启动命令之后，浏览器将会进入到Notebook的主页面，如下图所示。 
 
-![1658978624266](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658978624266.png)
+![1658978624266](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/16)
 
 修改文件存储位置，首先创建文件夹：
 
@@ -145,7 +145,7 @@ Jupyter Notebook是以网页的形式打开，可以在网页页面中**直接�
 
 更改配置文件后，重新打开jupyter，发现见面发生改变：
 
-![1658979313435](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658979313435.png)
+![1658979313435](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/17)
 
 ##### 3.3 页面基本操作
 
@@ -165,15 +165,15 @@ Files页面是用于管理和创建文件相关的类目。
 
 安装完毕界面：
 
-![1658980454768](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658980454768.png)
+![1658980454768](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/18)
 
 出现conda选项：
 
-![1658980493987](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658980493987.png)
+![1658980493987](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/19)
 
 使用图解：
 
- ![img](https://pic2.zhimg.com/80/v2-75db6aec2cf08a29014679435675f17d_720w.jpg) 
+ ![img](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/20) 
 
 安装Markdown生成目录：
 
@@ -183,7 +183,7 @@ Files页面是用于管理和创建文件相关的类目。
 
 安装完毕：
 
-![1658980871169](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658980871169.png)
+![1658980871169](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/21)
 
 ##### 3.4 基本操作
 
@@ -193,7 +193,7 @@ Files页面是用于管理和创建文件相关的类目。
 %load URL
 ```
 
-![1658997954554](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658997954554.png)
+![1658997954554](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/22)
 
 加载本地Python文件：
 
@@ -211,7 +211,7 @@ Files页面是用于管理和创建文件相关的类目。
 !pwd
 ```
 
-![1658998365026](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658998365026.png)
+![1658998365026](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/23)
 
 注意，其中!pwd属于shell语法，**即在Jupyter Notebook中执行shell命令的语法** 。
 
@@ -237,7 +237,7 @@ vi /etc/apt/sources.list
 
 删除原来的数据之后，添加新的数据如下所示：
 
-![1658853044707](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658853044707.png)
+![1658853044707](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/24)
 
 ③更新列表
 
@@ -263,7 +263,7 @@ wget set to manually installed.
 
 在运行jupyter notebook遇到如上错误，找到配置文件，修改内容为True并去掉注释
 
-![1658940745629](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658940745629.png)
+![1658940745629](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/25)
 
 但是发现依旧报错，不进行文件的更改，而是使用如下命令：
 
@@ -273,11 +273,11 @@ wget set to manually installed.
 
 运行结果如下：
 
-![1658975743986](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658975743986.png)
+![1658975743986](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/26)
 
 粘贴其中的URLs到浏览器中，运行成功：
 
-![1658975941083](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658975941083.png)
+![1658975941083](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/27)
 
 ### 5.存在问题
 
@@ -289,7 +289,7 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 安装后，一直报错
 
-![1658999106821](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658999106821.png)
+![1658999106821](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/28)
 
 一直无法debug，最后卸载了jupyter，但是没卸载干净导致重装也无法运行，并且在环境中产生了大量无用的包。最后在新环境中完成实验。但是base环境中那么多包仍是一个问题。之后有时间要把这些包uninstall一下。
 
@@ -301,11 +301,11 @@ conda install -c conda-forge jupyter_contrib_nbextensions
 
 清除结果如下：
 
-![1659013555688](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659013555688.png)
+![1659013555688](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/29)
 
 尝试对base环境进行回滚：
 
-![1659023377190](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659023377190.png)
+![1659023377190](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/30)
 
 但是出现缺失包的错误：
 
