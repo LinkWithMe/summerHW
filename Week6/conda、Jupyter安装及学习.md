@@ -193,7 +193,7 @@ Files页面是用于管理和创建文件相关的类目。
 %load URL
 ```
 
-![1658997954554](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/22)
+![1658997954554](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/1658997954554.png)
 
 加载本地Python文件：
 
