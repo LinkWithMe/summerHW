@@ -183,7 +183,7 @@ Files页面是用于管理和创建文件相关的类目。
 
 安装完毕：
 
-![1658980871169](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/21)
+![1658980871169](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/1658980871169.png)
 
 ##### 3.4 基本操作
 
