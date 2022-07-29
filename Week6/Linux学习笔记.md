@@ -20,7 +20,7 @@
 
 运行Ubuntn，出现以下错误，无法响应指令：
 
-![1658242263953](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658242263953.png)
+![1658242263953](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/1)
 
 查询相关资料发现，是由于使用代理软件，winsock出现问题， 可以通过注册表的方式，排除从winsock中排除wsl即可。 因此将如下代码写入reg文件：
 
@@ -34,9 +34,9 @@ Windows Registry Editor Version 5.00
 
 执行结果如下：
 
-![1658243604362](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658243604362.png)
+![1658243604362](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/2)
 
-![1658242485595](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658242485595.png)
+![1658242485595](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/3)
 
 成功完成安装，并且通过以下代码检查了网络连接、git与Python：
 
@@ -56,7 +56,7 @@ Windows Registry Editor Version 5.00
 
 创建新用户：
 
-![1658292318256](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658292318256.png)
+![1658292318256](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/4)
 
 ## 二、Linux学习
 
@@ -104,7 +104,7 @@ exit
 
 借助通配符， 为文件名构建非常复杂的选择标准成为可能。下面是一些类型匹配的范例: 
 
-![1658471117920](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1658471117920.png)
+![1658471117920](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/5)
 
 进行新建目录和目录移动操作：
 
