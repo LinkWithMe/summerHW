@@ -104,7 +104,7 @@ exit
 
 借助通配符， 为文件名构建非常复杂的选择标准成为可能。下面是一些类型匹配的范例: 
 
-![1658471117920](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/5)
+![1658471117920](https://github.com/LinkWithMe/summerHW/blob/main/Week6/image/xiu_1)
 
 进行新建目录和目录移动操作：
 
