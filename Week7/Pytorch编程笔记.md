@@ -6,7 +6,7 @@
 
 ### 1.1 页面文件太小，无法完成操作
 
-![1659342835394](https://github.com/LinkWithMe/summerHW/tree/main/Week7/image/38)
+![1659342835394](https://github.com/LinkWithMe/summerHW/blob/main/Week7/image/38)
 
 原因： 模型太大，而系统分配的分页内存太小，无法训练 
 
