@@ -6,7 +6,7 @@
 
 ### 1.1 页面文件太小，无法完成操作
 
-![1659342835394](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659342835394.png)
+![1659342835394](https://github.com/LinkWithMe/summerHW/tree/main/Week7/image/38)
 
 原因： 模型太大，而系统分配的分页内存太小，无法训练 
 
@@ -16,7 +16,7 @@
 
 ### 1.2 cannot import name 'DataLoder' from 'torch.utils.data'
 
-![1659447271918](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659447271918.png)
+![1659447271918](https://github.com/LinkWithMe/summerHW/tree/main/Week7/image/39)
 
 在导入包时出现这种错误，自己的pytorch版本应该比较新，以前在实验过程中也出现过类似问题
 
