@@ -16,7 +16,7 @@
 
 ### 1.2 cannot import name 'DataLoder' from 'torch.utils.data'
 
-![1659447271918](https://github.com/LinkWithMe/summerHW/tree/main/Week7/image/39)
+![1659447271918](https://github.com/LinkWithMe/summerHW/blob/main/Week7/image/39)
 
 在导入包时出现这种错误，自己的pytorch版本应该比较新，以前在实验过程中也出现过类似问题
 
