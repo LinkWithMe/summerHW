@@ -12,17 +12,17 @@
 
 首先讲述了论文中的一个图，如下：
 
-![1659861031629](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659861031629.png)
+![1659861031629](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/1)
 
 随着网络深度的增加，精度达到饱和，然后迅速下降。这不是由过拟合引起的，称之为退化。
 
 第二张图则是残差方法的具体实现：
 
-![1659861170480](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659861170480.png)
+![1659861170480](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/2)
 
 第三张图是网络架构图：
 
-![1659861195999](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659861195999.png)
+![1659861195999](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/3)
 
 剩下的则是与先前实验有对应的实验结果图。
 
@@ -57,13 +57,13 @@
 
 展示了不同层数的残差网络的架构：
 
-![1659864303489](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659864303489.png)
+![1659864303489](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/4)
 
 不同层数的网络间的不同主要是中间一些残差块的结构不同。
 
 对于表格中的每一个内容：
 
-![1659864475746](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659864475746.png)
+![1659864475746](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/5)
 
 表示着残差块的内部机构，通道数，以及这个残差块被复制的次数。这些超参数都是网络自动选取以及作者自己设置。
 
@@ -71,7 +71,7 @@
 
 对于如下这个结果图：
 
-![1659864693534](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659864693534.png)
+![1659864693534](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/6)
 
 数据增强会加大图片的噪音，因此在起步时误差呈现这个关系。同时两次断崖式下跌是因为除以10，也就是乘以0.1操作的原因，并且如果选择过早的进行这步操作，会导致后期收敛无力。
 
@@ -87,7 +87,7 @@
 
 使用不同方法的结果如下：
 
-![1659864998311](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659864998311.png)
+![1659864998311](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/7)
 
 可见，BC的结果相差不多，但C的方法会耗费更多的计算资源，因此现在采用的还是B的方式，即在输入输出格式不同的时候，进行投影。
 
@@ -95,23 +95,23 @@
 
 在更深层的网络中：
 
-![1659865318473](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659865318473.png)
+![1659865318473](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/8)
 
 对于256维的输入，首先对其进行一次降维，在降维之后，再用1*1卷积投影返回至原来的维度。虽然右图的通道数是原来的四倍，但是复杂度相较于之前并没有明显变化。
 
 因此再返回至原来的表格中观看：
 
-![1659865479384](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659865479384.png)
+![1659865479384](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/9)
 
 三层是因为投影的存在。而从34-50的变化，可以说是残差块的个数并没有改变，只是因为每一个块中的更多操作，而导致总层数的变化，所以浮点运算也没有很大改变。
 
 使用不同深度Resnet网络的结果：
 
-![1659881089857](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659881089857.png)
+![1659881089857](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/10)
 
 而在做了大量的render crop融合之后，效果更好：
 
-![1659881205390](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659881205390.png)
+![1659881205390](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/11)
 
 #### 3.4.3 CIFAR上的实验结果
 
@@ -123,7 +123,7 @@
 
 Resnet起作用的原因，在于其对梯度消失问题的解决，这两种方式的求导公式如下：
 
-![1659883664551](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1659883664551.png)
+![1659883664551](https://github.com/LinkWithMe/summerHW/blob/main/Week8/image/12)
 
 通过小数+大数的方式，最后整体上的数值是可以“训练的动”的。
 
