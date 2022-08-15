@@ -26,7 +26,7 @@ Docker的容器：
 
 下载Windows版本后，关联WSL2
 
-![1660463599275](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660463599275.png)
+![1660463599275](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/22)
 
 通过指令：
 
@@ -36,6 +36,6 @@ df -Th
 
 可以发现
 
-![1660463901125](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660463901125.png)
+![1660463901125](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/23)
 
 新增了一些与docker有关的挂载点。
