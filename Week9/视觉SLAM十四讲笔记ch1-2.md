@@ -54,7 +54,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 如图所示：
 
-![1660478840893](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660478840893.png)
+![1660478840893](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/24)
 
 图像中的人物，可能是一个很大但很远的物体，也可能是一个很近很小的物体。即单目SLAM估计的轨迹和地图将与真实的轨迹和地图相差一个因子，也就是尺度，单凭图像无法确定这个真实尺度，所以称之为**尺度不确定性**。
 
@@ -80,7 +80,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 一个完善的算法框架如下：
 
-![1660486271887](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660486271887.png)
+![1660486271887](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/25)
 
 流程步骤如下：
 
@@ -98,7 +98,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 如图所示，根据相邻帧间的图像估计相机运动：
 
-![1660486627246](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660486627246.png)
+![1660486627246](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/26)
 
 视觉里程计通过相邻帧间的图像估计相机运动，并恢复场景的空间结构。但是只计算相邻时刻的运动，不关心再往前的信息。但前端过程中必然存在误差，误差会不断累积，形成**累积漂移**(例如，在前端有1m的误差，经过累积，会发现原本直的走廊变成了斜的，而原本90°的直角变成了歪的)。为消除漂移，需要**回环检测**和**后端优化**。
 
@@ -116,7 +116,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 目标：通过某种手段，让机器人知道“回到原点”这件事情，让机器人具有识别到过的场景的能力，再把位置估计值“拉”回去，如图：
 
-![1660488458008](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660488458008.png)
+![1660488458008](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/27)
 
 检测手段：判断与之前位置的差异，计算图像间相似性
 
@@ -144,7 +144,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 一些参数的约定如下：
 
-![1660532677169](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660532677169.png)
+![1660532677169](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/28)
 
 需要解决的问题：
 
@@ -154,7 +154,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 根据传感器读数、运动过程加入的噪声可以建立运动方程：
 
-![1660532976136](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660532976136.png)
+![1660532976136](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/29)
 
 ②如何认识观测，机器人在k时刻xk处观察到了某个路标yj，如何用数学语言进行描述
 
@@ -162,7 +162,7 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 用数学模型进行描述：
 
-![1660533092718](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533092718.png)
+![1660533092718](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/30)
 
 ### 10.参数化形式
 
@@ -170,15 +170,15 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 机器人在平面运动，那么位姿(位置+姿态)由两个位置的坐标和一个转角来描述xk=
 
-![1660533414487](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533414487.png)
+![1660533414487](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/31)
 
 同时，运动传感器能够测量到机器人在任意两个时间间隔位置和转角的变化量uk=
 
-![1660533458039](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533458039.png)
+![1660533458039](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/32)
 
 于是，此时运动方程就可以写成如下形式，这两个参数以及一个噪声变量：
 
-![1660533510721](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533510721.png)
+![1660533510721](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/33)
 
 **观测方程：**
 
@@ -186,19 +186,19 @@ SLAM中所使用的相机较为简单，以一定速率采集图像、形成视�
 
 例如机器人携带着一个二维激光传感器(当激光传感器观测一个2D路标点时，可以测到路标点与机器人之间的距离r以及夹角φ)，我们记路标点为y1,y2；位姿为x1，x2，如下：
 
-![1660533780156](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533780156.png)
+![1660533780156](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/34)
 
 而观测数据为：
 
-![1660533788981](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533788981.png)
+![1660533788981](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/35)
 
 那么，观测方程就可以写为，其中也需要加入噪声：
 
-![1660533810889](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533810889.png)
+![1660533810889](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/36)
 
 因此，SLAM的数学问题主要由运动方程和观测方程构成：
 
-![1660533960356](C:\Users\17799\AppData\Roaming\Typora\typora-user-images\1660533960356.png)
+![1660533960356](https://github.com/LinkWithMe/summerHW/blob/main/Week9/image/37)
 
 这两个方程描述了最基本的SLAM问题：
 
